@@ -1,8 +1,8 @@
 # Name: BEAU_validate - Bulk Exchange Account Update validator
-# Author: Connor Lynn
+# Author: ixi
 # Version: 1.0RC1
 
-$csv = Import-csv "C:\Users\`$lynnc\Desktop\1Mailboxes.csv"
+$csv = Import-csv [CSV HERE]
 
 ForEach ($line in $csv) {
 
