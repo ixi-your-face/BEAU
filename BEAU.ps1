@@ -1,8 +1,8 @@
 # Name: BEAU - Bulk Exchange Account Update
-# Author: Connor Lynn
+# Author: ixi
 # Version: 1.0RC1
 
-$csv = Import-csv "C:\Users\`$lynnc\Desktop\1Mailboxes.csv"
+$csv = Import-csv [CSV HERE]
 
 ForEach ($line in $csv) {
     $OldName = $line.CurrentDisplayName.Trim()
